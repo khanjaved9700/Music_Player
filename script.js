@@ -1,7 +1,5 @@
 console.log("hey JavaScript This is javed");
 // initilize the variable
-
-
 let songIndex=0;
 let audioElement=new Audio(`songs/${songIndex+1}.mp3`);
 let masterPlay=document.getElementById('masterPlay');
@@ -17,7 +15,7 @@ let songs = [
     {songName: "Bekhudi :Darshan Raval", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Noor :Sona Mohapatra", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Kithe Chaliye Tu :Jubin Nautiyal", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Katu Kaise Rahta :Jubin Nautiyal", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Jag Ghoomeya :Rahat Fateh Ali Khan", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Sanam :Ashwani Machal", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
     {songName: "Dil Ko Karar Aaya :Neha Kakkar", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
     {songName: "Teri Nazron Ne Kuch Aisa Jadoo Kiya :Jubin Nautiyal", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
@@ -72,7 +70,7 @@ previous.addEventListener('click',()=>{
 });
 
 const makeAllBackgroundStyleWhite=()=>{
-    console.log("clicked!!!!");
+    console.log("hey Javed!!!!!!!!!!!!!!!!");
     songItem.forEach((element)=>{
 
     element.style.backgroundColor="white";
